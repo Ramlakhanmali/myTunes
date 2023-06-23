@@ -1,0 +1,91 @@
+body{
+    padding: 0px;    /* 0 padding for the body */
+    margin: 0px;     /* 0 margin for the body */
+    display: flex;
+}
+.nav{
+    background-color: rgba(20, 19, 19, 0.733);  /* this is the navbar color */
+    height: 25px;              /* this is the navbar height */
+    top: 0px;                  /* distance to top */
+    position: fixed;            /* position fixed for the navbar */ 
+    width: 100%;               /* full width of navebar */
+}
+a{
+    position: relative;           /* position for all anchor tags */
+    color: white;               /* color of text which is in anchor tags */       
+    text-decoration: none;        /* for remove underline of anchor tags */
+    margin: 40px ;                /* margin for all sides */
+    justify-content: center;      /* content justify for anchor tag*/
+    align-items: center;          /* Items in center alignment
+    text-align: center;           /* text alignment */
+}
+.img{
+    height: 100vh;       /* Image height */
+    width: 100%;         /* image width  */
+    background-image: url(https://images.unsplash.com/photo-1530022351670-4caa0efc0b4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBib3l8ZW58MHx8MHx8fDA%3D&w=1000&q=80); /* image link */
+    background-position: center;        /* image in center */
+    background-repeat: no-repeat;       /* no-repeat for background */
+    background-size: cover;             /* background cover */
+}        
+.homepage{
+    display: flex;             /* flex for homepage */
+    position: relative;        /* relative position */
+    flex-direction: column;    /* flex direction coloum */
+    color: white;            /* text color white */
+    justify-content: center;   /* justifying content in center */
+    align-items: center;       /* items align in center */
+}
+.centerimg{
+    height: 100%;       /* center image height */
+    width: 100px;        /* center image width 100% */
+}
+.after_home{
+    height: fit-content;      /* height for after_home */
+    background-color: rgba(0, 0, 0, 0.774);     /* bgColor in after_home */
+    color: white;                               /* text color white */
+    text-align: center;                           /* text alignment center */
+    align-items: center;                          /* align-items center */
+}
+.after{
+    align-items: center;               /* items alignment in center */
+    text-align: justify;               /* text alignment justify */
+    text-align: center;                /* text alignment center */
+    margin: 30px 30px 20px 30px;       /* margin from body */
+    padding: 30px;                     /* padding from body */
+}
+.secondlast{
+    text-align: center;                /* text alignment center */
+    margin-top: 20px;                  /* margin 10px from top */
+    background-repeat: no-repeat;      /* background no-repeat */
+    background-size: cover;            /* background cover */
+    background-image: url(./stars.jpg);  /*image for second last */
+    height:100vh;                      /* height for second last */
+    width: 100%;                        /* width for second last */
+    color: white;             /* white color for the text in second last */                      
+}      
+.last{
+    display: flex;              /* display flex for last */
+    margin-top: 30px;           /* 30px margin from top */
+    gap: 20px;                  /* gap between tags */
+    padding: 80px;              /* padding from body */
+}
+.footer{                        
+position: relative;                         /* footer position relative */
+background-color: rgba(0, 0, 0, 0.767);   /* bgColor for footer */
+color: white;                             /* text color white */
+align-items: center;                        /* align center */
+} 
+.table{                                         
+   margin-left: 40px;     /* margin from left */
+   padding-top: 20px;     /* padding 10px from top */
+   padding-bottom: 20px;   /* padding from bottom */
+}
+th,td {
+    padding-left: 140px;    /* padding from left betwwen th and td */       
+}
+.home_copy{
+    background-color: rgba(0, 0, 0, 0.541);   /* bgColor for home_copy */
+    color: white;                             /* text color white */
+    text-align: center;                         /* text alignment center */
+    height: 30px;                               /* 30px height */
+}
